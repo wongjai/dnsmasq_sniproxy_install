@@ -1,4 +1,4 @@
-# Dnsmasq SNIproxy One-click Install @宋仲基版
+# Dnsmasq SNIproxy One-click Install
 
 ### 脚本说明：
  
@@ -15,7 +15,7 @@
 
    **2、宋仲基版**
 
-    修改了原脚本的规则，仅保留了Youtube分流规则，宋仲基使用。
+    修改了原脚本的规则，仅保留了Youtube分流规则，安装后供宋仲基使用。
 
    ***如果需要自定义***
 
