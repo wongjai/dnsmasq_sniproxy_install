@@ -2,6 +2,8 @@
 
 ### 脚本说明：
 
+* 增加：油管规则
+ 
 * 原理简述：使用[Dnsmasq](http://thekelleys.org.uk/dnsmasq/doc.html)的DNS将网站解析劫持到[SNI proxy](https://github.com/dlundquist/sniproxy)反向代理的页面上。
 
 * 用途：让无法观看流媒体的VPS可以观看（前提：VPS中要有一个是能观看流媒体的）。
