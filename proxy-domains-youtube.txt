@@ -1,3 +1,6 @@
+youtubei.googleapis.com
+yt3.ggpht.com
+ggpht.cn
 ggpht.com
 googlevideo.com
 gvt2.com
