@@ -7,9 +7,26 @@
 * 用途：让无法观看流媒体的VPS可以观看（前提：VPS中要有一个是能观看流媒体的）。
 
 * 特性：
-***本脚本为宋仲基版，仅添加Youtube规则，用以解决某些解锁机Youtube送中的问题。***
 
-原脚本默认解锁`Netflix Hulu HBO`[等](https://github.com/myxuchangbin/dnsmasq_sniproxy_install/blob/master/proxy-domains.txt)，如需增删流媒体域名请编辑文件`/etc/dnsmasq.d/custom_netflix.conf`和`/etc/sniproxy.conf`
+    **1、完整版**
+
+    在原脚本基础上，增加了Youtube分流规则。
+    默认解锁`Netflix Hulu HBO DisneyPlus Youtube`[等](https://github.com/codionx/dnsmasq_sniproxy_install/blob/master/proxy-domains-all.txt)
+
+   **2、宋仲基版**
+
+    修改了原脚本的规则，仅保留了Youtube分流规则，宋仲基使用。
+
+   ***如果需要自定义***
+
+    可Folk后，自行编辑proxy-domians相关文件。
+
+    或：安装后，修改`/etc/dnsmasq.d/custom_netflix.conf`和`/etc/sniproxy.conf`
+
+
+
+
+
 
 * 脚本支持系统：CentOS6+, Debian8+, Ubuntu16+
     * CentOS6/7/8， Debian8/9/10, Ubuntu16/18 已测试成功
@@ -29,19 +46,31 @@
       -ud, --undnsmasq           卸载 Dnsmasq
       -us, --unsniproxy          卸载 SNI Proxy
 
-### 快速安装（推荐）：
+### 快速安装-完整版（推荐）：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -f
+```
+### 快速安装-宋仲基版（推荐）：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -f
 ```
 
-### 普通安装：
+### 普通安装-完整版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -i
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -i
+```
+### 普通安装-宋仲基版：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -i
 ```
 
-### 卸载方法：
+### 卸载-完整版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy.sh https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -u
+```
+### 卸载-宋仲基版：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -u
 ```
 
 ### 使用方法：
