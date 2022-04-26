@@ -54,6 +54,10 @@ wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercon
 ``` Bash
 wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -f
 ```
+### 快速安装-DisneyPlus版（推荐）：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -f
+```
 
 ### 普通安装-完整版：
 ``` Bash
@@ -71,6 +75,10 @@ wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercon
 ### 卸载-宋仲基版：
 ``` Bash
 wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -u
+```
+### 卸载-Disney版：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -u
 ```
 
 ### 使用方法：
