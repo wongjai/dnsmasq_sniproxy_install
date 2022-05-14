@@ -64,7 +64,7 @@ wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubuser
 ```
 ### 快速安装-台湾流媒体版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_tw.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -f
 ```
 
 ### 普通安装-完整版：
@@ -90,7 +90,7 @@ wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubuser
 ```
 ### 卸载-台湾流媒体版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_tw.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -u
 ```
 
 ### 使用方法：
