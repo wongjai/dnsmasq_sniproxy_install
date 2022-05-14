@@ -16,6 +16,10 @@
    **2、宋仲基版**
 
     修改了原脚本的规则，仅保留了Youtube分流规则，安装后供宋仲基使用。
+    
+   **3、台湾流媒体解锁版**
+
+    修改了原脚本的规则，增加了Dazn | Disney+ | Netflix | YouTube Premium | Amazon Prime Video | TVBAnywhere+ | Spotify | KKTV | LiTV | LineTV.TW | HBO | Bahamut | Bilibili国际 分流规则，安装后供台湾流媒体解锁使用。
 
    ***如果需要自定义***
 
@@ -46,17 +50,21 @@
       -ud, --undnsmasq           卸载 Dnsmasq
       -us, --unsniproxy          卸载 SNI Proxy
 
-### 快速安装-完整版（推荐）：
+### 快速安装-完整版：
 ``` Bash
 wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -f
 ```
-### 快速安装-宋仲基版（推荐）：
+### 快速安装-宋仲基版：
 ``` Bash
 wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -f
 ```
-### 快速安装-DisneyPlus版（推荐）：
+### 快速安装-DisneyPlus版：
 ``` Bash
 wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -f
+```
+### 快速安装-台湾流媒体版：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -f
 ```
 
 ### 普通安装-完整版：
@@ -79,6 +87,10 @@ wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubuse
 ### 卸载-Disney版：
 ``` Bash
 wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -u
+```
+### 卸载-台湾流媒体版：
+``` Bash
+wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -u
 ```
 
 ### 使用方法：
