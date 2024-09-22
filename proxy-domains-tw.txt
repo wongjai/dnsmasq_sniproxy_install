@@ -474,3 +474,8 @@ p.bstarstatic.com
 upos-bstar-mirrorakam.akamaized.net
 upos-bstar1-mirrorakam.akamaized.net
 biliintl.com
+gemini.google.com
+generativelanguage.googleapis.com
+optimizationguide-pa.googleapis.com
+jnn-pa.googleapis.com
+bard.google.com
