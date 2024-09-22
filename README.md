@@ -11,7 +11,7 @@
     **1、完整版**
 
     在原脚本基础上，增加了Youtube分流规则。
-    默认解锁`Netflix Hulu HBO DisneyPlus Youtube`[等](https://github.com/codionx/dnsmasq_sniproxy_install/blob/master/proxy-domains-all.txt)
+    默认解锁`Netflix Hulu HBO DisneyPlus Youtube`[等](https://github.com/wongjai/dnsmasq_sniproxy_install/blob/master/proxy-domains-all.txt)
 
    **2、宋仲基版**
 
@@ -51,55 +51,55 @@
 
 ### 快速安装-完整版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -f
 ```
 ### 快速安装-宋仲基版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -f
 ```
 ### 快速安装-DisneyPlus版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -f
 ```
 ### 快速安装-台湾流媒体版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_tw.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_tw.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -f
 ```
 
 ### 快速安装-Nearouter香港版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_nr.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_nr.sh && bash dnsmasq_sniproxy_nr.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_nr.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_nr.sh && bash dnsmasq_sniproxy_nr.sh -f
 ```
 
 ### 普通安装-完整版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -i
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -i
 ```
 ### 普通安装-宋仲基版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -i
+wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -i
 ```
 
 ### 卸载-完整版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -u
 ```
 ### 卸载-宋仲基版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_youtube.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_youtube.sh && bash dnsmasq_sniproxy_youtube.sh -u
 ```
 ### 卸载-Disney版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_disney.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_disney.sh && bash dnsmasq_sniproxy_disney.sh -u
 ```
 ### 卸载-台湾流媒体版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_tw.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_tw.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_tw.sh && bash dnsmasq_sniproxy_tw.sh -u
 ```
 
 ### 卸载-Nearouter香港版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_nr.sh https://raw.githubusercontent.com/codionx/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_nr.sh && bash dnsmasq_sniproxy_nr.sh -u
+wget --no-check-certificate -O dnsmasq_sniproxy_nr.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_nr.sh && bash dnsmasq_sniproxy_nr.sh -u
 ```
 <br /><br />
 ## 使用方法：
