@@ -479,3 +479,7 @@ generativelanguage.googleapis.com
 optimizationguide-pa.googleapis.com
 jnn-pa.googleapis.com
 bard.google.com
+openai.com
+chatgpt.com
+sora.com
+apple-relay.mask.apple-dns.net
