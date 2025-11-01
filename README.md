@@ -51,7 +51,7 @@
 
 ### 快速安装-完整版：
 ``` Bash
-wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy_all.sh && bash dnsmasq_sniproxy_all.sh -f
+wget --no-check-certificate -O dnsmasq_sniproxy_all.sh https://raw.githubusercontent.com/wongjai/dnsmasq_sniproxy_install/master/dnsmasq_sniproxy.sh && bash dnsmasq_sniproxy.sh -f
 ```
 ### 快速安装-宋仲基版：
 ``` Bash
