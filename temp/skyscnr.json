@@ -1,7 +1,10 @@
 [
   {
-    "status": "complete",
-    "result": {
+    "context": {
+      "status": "complete",
+      "sessionId": "KLUv_SCgDQQA8ogdHbC5AQyDF8HWhMhb4a7KSgdp0-bKPSvNAPbWr5YFixIcHpusVc53yLZ57teZ87Zyz4XfcNfJzPNASUGd8-r8pvXlvijjtsu38WtbbmcOZVEYfAGGo6ZKigiA4PanPD3Cd3a2lxthe9uU2UbK3DR8yEqWK4DBVwIABOY1HxQU"
+    },
+    "itineraries": {
       "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg",
       "filterStats": {
         "duration": {
@@ -54468,6 +54471,164 @@
         }
       ],
       "buckets": []
+    },
+    "carHire": {
+      "context": {
+        "status": "complete",
+        "sessionId": "80ed0751-2f98-4a75-8a84-a9fe59cf4d3e",
+        "totalResults": 4
+      },
+      "results": [],
+      "buckets": [
+        {
+          "id": "中型",
+          "name": "中型",
+          "items": [
+            {
+              "groupKey": "compact",
+              "groupType": "indicative",
+              "carClass": "COMPACT",
+              "formattedCarClass": "小型",
+              "doors": "4-5_door",
+              "formattedDoors": "4-5 門",
+              "seats": 4,
+              "bags": 3,
+              "isAirconditioned": false,
+              "price": {
+                "currencyCode": "HKD",
+                "amount": 37099,
+                "unit": "UNIT_CENTI"
+              },
+              "formattedPrice": "HK$371",
+              "image": "https://logos.skyscnr.com/images/carhire/seo/deals-images/compact.png",
+              "redirectUrl": "https://www.skyscanner.com.hk/car-hire/results/128668169/128668169/2025-11-21t10:00/2025-11-22t10:00/30/?source=combined_result&filters=car-class:compact&indicative_price=370.99",
+              "filterPill": {
+                "logicalName": "中型",
+                "filterPillScore": 8.255558,
+                "displayName": {
+                  "displayName": "中型",
+                  "isLocalised": true
+                },
+                "composition": {
+                  "sortOrderId": "Medium"
+                }
+              },
+              "formattedTotalPrice": "HK$371"
+            }
+          ]
+        },
+        {
+          "id": "SUV",
+          "name": "SUV",
+          "items": [
+            {
+              "groupKey": "suv",
+              "groupType": "indicative",
+              "carClass": "SUV",
+              "formattedCarClass": "SUV",
+              "doors": "4-5_door",
+              "formattedDoors": "4-5 門",
+              "seats": 5,
+              "bags": 3,
+              "isAirconditioned": false,
+              "price": {
+                "currencyCode": "HKD",
+                "amount": 49136,
+                "unit": "UNIT_CENTI"
+              },
+              "formattedPrice": "HK$492",
+              "image": "https://logos.skyscnr.com/images/carhire/seo/deals-images/suv.png",
+              "redirectUrl": "https://www.skyscanner.com.hk/car-hire/results/128668169/128668169/2025-11-21t10:00/2025-11-22t10:00/30/?source=combined_result&filters=car-type:suv&indicative_price=491.36",
+              "filterPill": {
+                "logicalName": "SUV",
+                "filterPillScore": 7.6895766,
+                "displayName": {
+                  "displayName": "SUV",
+                  "isLocalised": true
+                },
+                "composition": {
+                  "sortOrderId": "SUV"
+                }
+              },
+              "formattedTotalPrice": "HK$492"
+            }
+          ]
+        },
+        {
+          "id": "大型",
+          "name": "大型",
+          "items": [
+            {
+              "groupKey": "fullsize",
+              "groupType": "indicative",
+              "carClass": "FULLSIZE",
+              "formattedCarClass": "大型",
+              "doors": "4-5_door",
+              "formattedDoors": "4-5 門",
+              "seats": 5,
+              "bags": 4,
+              "isAirconditioned": false,
+              "price": {
+                "currencyCode": "HKD",
+                "amount": 49136,
+                "unit": "UNIT_CENTI"
+              },
+              "formattedPrice": "HK$492",
+              "image": "https://logos.skyscnr.com/images/carhire/seo/deals-images/fullsize.png",
+              "redirectUrl": "https://www.skyscanner.com.hk/car-hire/results/128668169/128668169/2025-11-21t10:00/2025-11-22t10:00/30/?source=combined_result&filters=car-class:fullsize&indicative_price=491.36",
+              "filterPill": {
+                "logicalName": "大型",
+                "filterPillScore": 7.6895766,
+                "displayName": {
+                  "displayName": "大型",
+                  "isLocalised": true
+                },
+                "composition": {
+                  "sortOrderId": "Large"
+                }
+              },
+              "formattedTotalPrice": "HK$492"
+            }
+          ]
+        },
+        {
+          "id": "豪華型",
+          "name": "豪華型",
+          "items": [
+            {
+              "groupKey": "premium",
+              "groupType": "indicative",
+              "carClass": "PREMIUM",
+              "formattedCarClass": "豪華型",
+              "doors": "4-5_door",
+              "formattedDoors": "4-5 門",
+              "seats": 5,
+              "bags": 2,
+              "isAirconditioned": false,
+              "price": {
+                "currencyCode": "HKD",
+                "amount": 77300,
+                "unit": "UNIT_CENTI"
+              },
+              "formattedPrice": "HK$774",
+              "image": "https://logos.skyscnr.com/images/carhire/seo/deals-images/premium.png",
+              "redirectUrl": "https://www.skyscanner.com.hk/car-hire/results/128668169/128668169/2025-11-21t10:00/2025-11-22t10:00/30/?source=combined_result&filters=car-class:premium&indicative_price=773.00",
+              "filterPill": {
+                "logicalName": "豪華型",
+                "filterPillScore": 6.3652887,
+                "displayName": {
+                  "displayName": "豪華型",
+                  "isLocalised": true
+                },
+                "composition": {
+                  "sortOrderId": "Luxury"
+                }
+              },
+              "formattedTotalPrice": "HK$774"
+            }
+          ]
+        }
+      ]
     }
   }
 ]
