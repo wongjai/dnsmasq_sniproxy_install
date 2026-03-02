@@ -670,6 +670,7 @@ oaistatic.com
 oaiusercontent.com
 anthropic.com
 claude.ai
+claude.com
 gemini.google.com
 antigravity.google
 proactivebackend-pa.googleapis.com
