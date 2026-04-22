@@ -271,6 +271,14 @@ install_dnsmasq(){
         elif ! grep -q "^IGNORE_RESOLVCONF=yes" /etc/default/dnsmasq 2>/dev/null; then
             echo "IGNORE_RESOLVCONF=yes" >> /etc/default/dnsmasq
         fi
+        # Override Debian's --local-service default which blocks external DNS queries
+        if ! grep -q '^DNSMASQ_OPTS=.*--listen-address' /etc/default/dnsmasq 2>/dev/null; then
+            if grep -q '^DNSMASQ_OPTS=' /etc/default/dnsmasq 2>/dev/null; then
+                sed -i 's/^DNSMASQ_OPTS=.*/DNSMASQ_OPTS="--listen-address=0.0.0.0"/' /etc/default/dnsmasq
+            else
+                echo 'DNSMASQ_OPTS="--listen-address=0.0.0.0"' >> /etc/default/dnsmasq
+            fi
+        fi
     fi
     systemctl enable dnsmasq > /dev/null 2>&1
     systemctl restart dnsmasq || { echo -e "[${red}Error${plain}] Failed to start dnsmasq."; exit 1; }
