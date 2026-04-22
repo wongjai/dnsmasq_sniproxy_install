@@ -599,7 +599,15 @@ refresh_domains(){
 
     if [ ${has_dnsmasq} -eq 1 ]; then
         echo -e "[${green}Info${plain}] Updating dnsmasq domains..."
+        local custom_port=""
+        if grep -q '^port=' /etc/dnsmasq.d/custom_netflix.conf 2>/dev/null; then
+            custom_port=$(grep '^port=' /etc/dnsmasq.d/custom_netflix.conf | head -1)
+        fi
         download /etc/dnsmasq.d/custom_netflix.conf "${GITHUB_RAW_URL}/dnsmasq.conf"
+        if [ -n "${custom_port}" ] && [ "${custom_port}" != "port=53" ]; then
+            sed -i "1i ${custom_port}" /etc/dnsmasq.d/custom_netflix.conf
+            echo -e "[${green}Info${plain}] Preserved custom DNS port: ${custom_port}"
+        fi
         for domain in $(cat /tmp/${domains_file}); do
             printf "address=/${domain}/${publicip}\n" | tee -a /etc/dnsmasq.d/custom_netflix.conf > /dev/null 2>&1
         done
